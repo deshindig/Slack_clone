@@ -1,0 +1,7 @@
+#!/bin/bash
+shopt -s extglob
+
+python3 reset_server_data.py
+rm static/!("default.jpeg")
+rm working_images/*
+echo All persistent server data wiped and reset.

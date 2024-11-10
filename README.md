@@ -1,4 +1,4 @@
-"slackr": A bare-bones clone of the web application Slack. Front and back-end are fully separated. 
+A bare-bones clone of the web application Slack. Front and back-end are fully separated. 
 
 ## Changelog (cleared 27th October in git hash "353c70c6e")
 

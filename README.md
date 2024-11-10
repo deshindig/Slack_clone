@@ -99,7 +99,6 @@ Standups can be started on the frontend by typing "/standup X", where X is the n
   * Error thrown when token passed in is not a valid token
 
 ### Pagination
-The behaviour in which channel_messages returns data is called **pagination**. It's a commonly used method when it comes to getting theoretially unbounded amounts of data from a server to display on a page in chunks. Most of the timelines you know and love - Facebook, Instagram, LinkedIn - do this.
 
 For example, if we imagine a user with token "12345" is trying to read messages from channel with ID 6, and this channel has 124 messages in it, 3 calls from the client to the server would be made. These calls, and their corresponding return values would be:
  * channel_messages("12345", 6, 0) => { [messages], 0, 50 }

@@ -1,5 +1,5 @@
 
-# Seprinciples
+# good_practices
 
 -   Overhaul the method of storing data from a large collection of various dictionaries containing the objects (User, Channel, Message) into a ServerData class. This use of a centralised ServerData allows us to deal with the data and functionality related to the data reduces various design ?smells?. The current code is now more mobile and less opaque along with it being decoupled. Originally, when the data was dealt with directly, the base code is (auth, admin, etc.) was filled with repetitive and redundant data that interacts with the data layer. The ServerData class new interfaces decouple the data layer from the system's back-end. If the storage method were to be altered or changed, the behaviour of the ServerData class can quickly and easily be changed. This reduces the viscosity and rigidity of the system.
     

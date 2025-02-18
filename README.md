@@ -1,11 +1,4 @@
-A bare-bones clone of the web application Slack. Front and back-end are fully separated. 
-
-## Changelog (cleared 27th October in git hash "353c70c6e")
-
-* 02/11/2019: "u_id" added to user and users structures
-* 02/11/2019: member return objects (seen in channel/details) have "profile_img_url" property added to them
-* 02/11/2019: Restricted image uploads to only be for JPGs. If you want to do all images that's fine, this just makes it easier for everyone else.
-* 02/11/2019: standup/active route added (this is really trivial)
+A bare-bones clone of the web application Slack. Front and back-end are fully separated.
 
 
 Implemented features: 
